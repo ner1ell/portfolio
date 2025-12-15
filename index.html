@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио Пнева Евгения</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Шапка с закреплением -->
+    <header>
+        <div class="logo"><img src="img/laptop3.png" alt=""></div>
+        <nav class="nav-links">
+            <a href="#works" class="raboti">Работы</a>
+            <a href="#contacts">Контакты</a>
+        </nav>
+    </header>
+    
+    <!-- Основной контент -->
+    <main>
+        <!-- Модуль 1: Герой-секция (#0D0D0D) -->
+        <section class="module-1">
+            <div class="hero">
+               
+                
+                <div class="hero-content">
+                    <h1 class="name">ПНЕВА</h1>
+                    <h1 class="lastname">ЕВГЕНИЯ</h1>
+                    <div class="hero-buttons">
+                        <a href="#works" class="btn">РАБОТЫ</a>
+                        <a href="#contacts" class="btnkon">КОНТАКТЫ</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Модуль 2: Работы (#231540) -->
+        <section id="works" class="module-2 section-hidden">
+            <h2 class="section-title">МОИ РАБОТЫ</h2>
+            <div class="works-container">
+                <!-- Три работы -->
+                <div class="work-item">
+                    <a href="https://ner1ell.github.io/Junior-/" target="_blank">
+                        <img src="img/верстальщик.png" alt="Работа 1" class="work-img">
+                    </a>
+                </div>
+                <div class="work-item">
+                    <a href="https://ner1ell.github.io/Lutheon/index.html" target="_blank">
+                        <img src="img/lutheon.png" alt="Работа 2" class="work-img">
+                    </a>
+                </div>
+                <div class="work-item">
+                    <a href="https://ner1ell.github.io/The-Loop-Pneva-EA/" target="_blank">
+                        <img src="img/loop.png" alt="Работа 3" class="work-img">
+                    </a>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Модуль 3: Контакты (#0D0D0D) -->
+        <section id="contacts" class="module-3 section-hidden">
+            <div class="contact-container">
+                <div class="contact-form">
+                    <h2 class="form-title">Связаться со мной</h2>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Имя</label>
+                            <input type="text" id="name" placeholder="Иван Иванов" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="email@gmail.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Сообщение</label>
+                            <textarea id="message" placeholder="Введите ваше сообщение здесь." required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">ОТПРАВИТЬ</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="footer-contacts">Контакты</div>
+        <div class="footer-social">
+            <a href="https://mail.ru/" title="Email">
+                <img class="icons" src="img/mail.png" alt="">
+            </a>
+            <a href="https://vk.com/ner1el" target="_blank" title="ВКонтакте">
+                <img class="icons" src="img/vk.png" alt="">
+            </a>
+        </div>
+    </footer>
+    
+    
+</body>
+</html>
